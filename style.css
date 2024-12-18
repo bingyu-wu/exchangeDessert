@@ -1,0 +1,57 @@
+/* 全局設定 */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url("cover.svg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+/* 容器設計 */
+.container {
+  margin-top: 10%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 標題設計 */
+h1 {
+  font-size: 2.5rem;
+  color: #ffdf00;
+  margin-bottom: 20px;
+}
+
+/* 抽獎結果盒 */
+.gift-box {
+  background-color: #ffffff;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 20px;
+  border: 5px solid #ff4136;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* 按鈕設計 */
+button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #ff4136;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #85144b;
+}
